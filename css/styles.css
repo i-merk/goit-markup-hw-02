@@ -35,7 +35,8 @@ ul{list-style: none;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor:pointer;}
-    .btn_h1:hover, .btn_h1:focus { background-color: #404bbf;}
+    .btn_h1:hover { background-color: #404bbf;}
+    .btn_h1:focus { background-color: #404bbf;}
     
 
 .h2{color: var(--NAVY-BLUE, #2E2F42);
@@ -56,7 +57,7 @@ ul{list-style: none;}
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-    .header-menu:hover, 
+    .header-menu:hover { color: #404bbf;} 
     .header-menu:focus { color: #404bbf;}   
 
     .contact {color: var(--SLATE, #434455);
@@ -67,7 +68,8 @@ ul{list-style: none;}
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;}
-.contact:hover, .contact:focus { color: #404bbf;}
+.contact:hover { color: #404bbf;}
+.contact:focus { color: #404bbf;}
 .section1 { background-color: #2e2f42}
 
 .h3-section2 {color: var(--NAVY-BLUE, #2E2F42);
