@@ -1,21 +1,21 @@
-body {font-family: 'Roboto', sans-serif;}
-.h-logo {
-    color: var(--IRIS, #2E2F42
-);
-    font-family: "Raleway", sans-serif;
+body {font-family: 'Roboto', sans-serif;
+    color: #434455; background-color: #FFFFFF;}
+.h-logo {color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
 
-    .h-logo_1 {color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;}
+    .h-logo_1 {color: var(--IRIS, #2E2F42
+        );
+            font-family: "Raleway", sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;}
     
 a {text-decoration: none;}
 ul{list-style: none;}
@@ -27,12 +27,14 @@ h1 {color: var(--WHITE, #FFF);
     letter-spacing: 0.02pem;}
 
 .btn_h1{color: var(--WHITE, #FFF);
-    font-family: Roboto;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif; 
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;}
+    .btn_h1:hover, .btn_h1:focus { color: #404bbf;}
 
 h2{color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -42,19 +44,9 @@ h2{color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.02em;
     text-transform: capitalize;}
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
+/**.visually-hidden {
     
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  } */
 
 .header-menu {color: var(--NAVY-BLUE, #2E2F42);
 
@@ -62,7 +54,38 @@ h2{color: var(--NAVY-BLUE, #2E2F42);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;}
+    .header-menu:hover, 
+    .header-menu:focus { color: #404bbf;}   
 
+    .contact {color: var(--SLATE, #434455);
+
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;}
+.contact:hover, .contact:focus { color: #404bbf;}
+
+.h3-section2 {color: var(--NAVY-BLUE, #2E2F42);
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
+
+.section3 {background-color: #F4F4FD}
+
+.section3_list {background-color: #FFFFFF }
+
+.h3-section3 {color: var(--NAVY-BLUE, #2E2F42);
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
     
 .main_font {color: var(--SLATE, #434455);
     font-size: 16px;
