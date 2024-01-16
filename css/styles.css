@@ -1,30 +1,95 @@
 body {font-family: 'Roboto', sans-serif;}
-.header.logo {
-    color: var(--IRIS, #4D5AE5);
+.h-logo {
+    color: var(--IRIS, #2E2F42
+);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
 
-
-    color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+    .h-logo_1 {color: var(--IRIS, #4D5AE5);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;}
     
-}
-.main_font {color: var(--SLATE, #434455);
+a {text-decoration: none;}
+ul{list-style: none;}
+h1 {color: var(--WHITE, #FFF);
     text-align: center;
-    /* Body */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02pem;}
+
+.btn_h1{color: var(--WHITE, #FFF);
+    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 1.5; 
-    letter-spacing: -0.02em;}
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;}
+
+h2{color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
     
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.header-menu {color: var(--NAVY-BLUE, #2E2F42);
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+    
+.main_font {color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;}
+
+    .f-logo {color: var(--CLOUD, #F4F4FD);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;}
+
+        .f-logo_1 {color: var(--IRIS, #4D5AE5);
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.16;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;}
+
+            .footer-text{color: var(--CLOUD, #F4F4FD);
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.02em;}
